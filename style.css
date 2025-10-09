@@ -106,7 +106,7 @@ body {
 .body-slide1 {
   display: flex;
   justify-content: center;
-  padding: 30px 240px;
+  padding: 50px 240px;
 }
 .title-slide1 {
   font-weight: 400;
