@@ -2,7 +2,7 @@
   font-family: "Helvetica Neue";
   src: url(/font/helvetica-neue-55-cufonfonts/HelveticaNeueMedium.ttf);
 }
-* {
+ {
   box-sizing: border-box;
 }
 body {
@@ -371,3 +371,4 @@ body {
   font-size: 17px;
   line-height: 18px;
 }
+
