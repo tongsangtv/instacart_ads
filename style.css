@@ -169,9 +169,12 @@ body {
 }
 .box1-slide2 {
   width: 400px;
-  gap: 25px;
+  gap: 28px;
   display: flex;
   flex-direction: column;
+  padding: 0 1.5px 26px 0;
+  position: relative;
+  top: 24px;
 }
 .box2-slide2 {
   position: relative;
@@ -180,11 +183,10 @@ body {
 }
 .slide3 {
   width: 100%;
-  height: 520px;
-  padding-top: 50px;
+  height: 600px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   gap: 60px;
 }
@@ -254,16 +256,16 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  padding-top: 50px;
 }
 .body-slide4 {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  height: 1320px;
   gap: 50px;
 }
 .title-slide4 {
@@ -503,7 +505,7 @@ body {
 }
 .line-img {
   display: flex;
-  gap: 50px;
+  gap: 40px;
   flex-direction: column;
 }
 .if1-slide4 {
@@ -516,11 +518,14 @@ body {
 }
 .content-img {
   position: absolute;
-  top: -125px;
+  top: -110px;
+  left: 10px;
+  height: 109px;
 }
 .content2-img {
   position: absolute;
-  top: -125px;
+  top: -110px;
+  left: 10px;
 }
 .icon-slide4 img {
   width: 64px;
