@@ -47,11 +47,9 @@ body {
 }
 .left-header {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  margin-left: 30px;
-  margin-right: auto;
-  position: relative;
+  width: 300px;
 }
 .right-header {
   display: flex;
@@ -68,10 +66,10 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
+  top: 25px;
+  left: 120px;
   width: 450px;
-  gap: 30px;
-  padding-top: 15px;
-  margin: 0 0 0 125px;
+  gap: 25px;
 }
 .title-banner {
   font-size: 46px;
