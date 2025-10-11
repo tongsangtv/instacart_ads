@@ -153,8 +153,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 64px;
-  height: 348px;
-  padding: 0 209.55px 0 209.53px;
+  padding: 48px 64px 0 32px;
 }
 .title-slide2 {
   font-size: 36px;
@@ -175,11 +174,9 @@ body {
   flex-direction: column;
   padding: 0 1.5px 26px 0;
   position: relative;
-  top: 24px;
 }
 .box2-slide2 {
   position: relative;
-  top: 24px;
   height: 300px;
 }
 .box2-slide2 img {
@@ -551,5 +548,5 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 145px 0 145px;
+  padding: 0 96px 32px;
 }
