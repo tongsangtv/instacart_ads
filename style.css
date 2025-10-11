@@ -179,7 +179,10 @@ body {
 .box2-slide2 {
   position: relative;
   top: 24px;
-  height: 301px;
+  height: 300px;
+}
+.box2-slide2 img {
+  height: 300px;
 }
 .slide3 {
   width: 100%;
