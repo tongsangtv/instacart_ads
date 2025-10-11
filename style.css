@@ -154,6 +154,7 @@ body {
   justify-content: center;
   gap: 64px;
   height: 348px;
+  padding: 0 209.55px 0 209.53px;
 }
 .title-slide2 {
   font-size: 36px;
@@ -544,4 +545,11 @@ body {
   gap: 9px;
   align-items: center;
   justify-content: center;
+}
+.box-con {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 145px 0 145px;
 }
