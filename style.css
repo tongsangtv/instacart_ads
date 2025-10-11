@@ -143,17 +143,15 @@ body {
   font-size: 16px;
 }
 .slide2 {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
   background-color: #f7f7f7;
-  width: 100%;
-  height: 348px;
 }
 .body-slide2 {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  gap: 64px;
   padding: 48px 64px 0 32px;
+  display: flex;
+  gap: 64px;
 }
 .title-slide2 {
   font-size: 36px;
@@ -301,13 +299,12 @@ body {
   vertical-align: middle;
 }
 .box1-slide4 {
+  padding: 0 96px 32px 96px;
   display: flex;
+  justify-content: center;
   gap: 64px;
   align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 388.89px;
-  padding: 0 96px 32px;
+  box-sizing: border-box;
 }
 .boxleft1-slide4 {
   display: flex;
@@ -317,6 +314,7 @@ body {
   width: 330px;
   height: 272px;
   justify-content: flex-start;
+  padding: 16px 0;
 }
 .boxright1-slide4 {
   display: flex;
@@ -345,6 +343,7 @@ body {
   width: 550.3px;
   justify-content: center;
   align-items: center;
+  padding: 80.31px 70.18px 70.76px 71px;
 }
 .boxright2-slide4 {
   display: flex;
@@ -353,6 +352,7 @@ body {
   align-items: center;
   width: 330px;
   height: 272px;
+  padding: 16px 0;
 }
 .box3-slide4 {
   display: flex;
@@ -465,7 +465,7 @@ body {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 4%;
+  top: 29%;
   left: 62.5%;
 }
 .badge1-info2 {
@@ -554,9 +554,7 @@ body {
   padding: 0 96px 32px;
 }
 .box-content {
-  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  box-sizing: border-box;
   justify-content: center;
 }
