@@ -50,7 +50,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 259.41pxpx;
+  width: 259.41px;
 }
 .right-header {
   display: flex;
@@ -558,3 +558,4 @@ body {
   box-sizing: border-box;
   justify-content: center;
 }
+
